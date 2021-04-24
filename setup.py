@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pylib-namikaze",
+    name="namikaze_pylib",
     version="1.0.0",
     author="Unis Badri",
     author_email="unis.badri@elementcreativestudio.com",
@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/namikazebadri/PythonLibrary",
-    packages=setuptools.find_packages(),
+    packages=['pylib'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
