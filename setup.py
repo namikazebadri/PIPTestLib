@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="namikaze_pylib",
+    name="pylib_namikaze",
     version="1.0.0",
     author="Unis Badri",
     author_email="unis.badri@elementcreativestudio.com",
