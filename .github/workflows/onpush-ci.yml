@@ -1,0 +1,35 @@
+name: Running CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.6, 3.7, 3.8]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Running static analysis
+      run: |
+        flake8 --config=.flake8 --count --statistics --show-source --exit-zero pylib/
+
+    - name: Running unit test
+      run: |
+        pytest
+
+    - name: Running code coverage
+      run: |
+        pytest --cov-report html --cov-report term --cov=pylib tests/
