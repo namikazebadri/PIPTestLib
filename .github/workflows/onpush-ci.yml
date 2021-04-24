@@ -32,4 +32,4 @@ jobs:
 
     - name: Running code coverage
       run: |
-        pytest --cov-report html --cov-report term --cov=pylib tests/
+        python -m pytest --cov-report html --cov-report term --cov=pylib tests/
