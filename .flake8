@@ -1,0 +1,7 @@
+[flake8]
+ignore = D203, F403
+exclude =
+    .git,
+    __pycache__,
+    */test*
+max-line-length = 100
