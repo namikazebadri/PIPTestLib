@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ecs_pip_test_lib",
+    name="pylib",
     version="1.0.0",
     author="Unis Badri",
     author_email="unis.badri@elementcreativestudio.com",
     description="Test library example for pypi.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/namikazebadri/PIPTestLib",
+    url="https://github.com/namikazebadri/PythonLibrary",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
