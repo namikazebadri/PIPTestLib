@@ -33,3 +33,8 @@ jobs:
     - name: Running code coverage
       run: |
         python -m pytest --cov-report html --cov-report term --cov=pylib tests/
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: coverage-artifact
+        path: htmlcov/
