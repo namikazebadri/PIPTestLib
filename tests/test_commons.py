@@ -8,4 +8,4 @@ def test_mannerism():
 
     expected_manner = f"Hi {name}, how are you today?"
 
-    assert mannerism.get_mannerism() == expected_manner
+    assert mannerism.create() == expected_manner

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pylib_namikaze",
-    version="1.0.1",
+    version="1.0.2",
     author="Unis Badri",
     author_email="unis.badri@elementcreativestudio.com",
     description="Test library example for pypi.",
