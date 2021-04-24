@@ -1,2 +1,17 @@
-# PIPTestLibProject
-Project for publishing our own python library to pypi.
+# Python Library
+
+This project consists of code for creating minimal python and deploying it to Pypi and Gemfury.
+
+## Running Unit Test
+
+`pytest`
+
+## Running Code Coverage
+
+`pytest --cov-report html --cov-report term --cov=pylib tests/`
+
+## Running Static Analysis
+
+To run static analysis using flake8, run this command:
+
+`flake8 --config=.flake8 --count --statistics pylib/`
