@@ -28,7 +28,7 @@ jobs:
 
     - name: Running unit test
       run: |
-        pytest
+        python -m pytest
 
     - name: Running code coverage
       run: |
