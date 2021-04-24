@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pylib_namikaze",
+    name="py-mannerism",
     version="1.0.2",
     author="Unis Badri",
     author_email="unis.badri@elementcreativestudio.com",
