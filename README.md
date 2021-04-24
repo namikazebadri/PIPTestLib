@@ -1,6 +1,6 @@
 # Python Library
 
-This project consists of code for creating minimal python and deploying it to Pypi and Gemfury.
+This project consists of code for creating minimal python library and deploying it to Pypi.
 
 ## Running Unit Test
 
