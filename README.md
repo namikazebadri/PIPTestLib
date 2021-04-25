@@ -31,4 +31,4 @@ I create other library projects in various programming language. The purpose of 
 - [Rust Library](https://github.com/namikazebadri/RustLibrary)
 - [Elixir Library](https://github.com/namikazebadri/ElixirLibrary)
 
-s can be sent to my email at [unis.badri@elementcreativestudio.com](mailto:unis.badri@elementcreativestudio.com) or [uzumaki.unis@gmail.com](mailto:uzumaki.unis@gmail.com).
+Any suggestions can be sent to my email at [unis.badri@elementcreativestudio.com](mailto:unis.badri@elementcreativestudio.com) or [uzumaki.unis@gmail.com](mailto:uzumaki.unis@gmail.com).
