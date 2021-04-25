@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py-mannerism",
-    version="1.0.2",
+    version="1.0.3",
     author="Unis Badri",
     author_email="unis.badri@elementcreativestudio.com",
     description="Test library example for pypi.",
