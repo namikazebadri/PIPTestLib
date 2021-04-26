@@ -34,7 +34,7 @@ it will show this text:
 
 ### Developing with Library
 
-This library is intended to fasten the library development, you can look at this as starter kit for library development. So you can add you own structure and library and doing your own library development on it.
+This library is intended to fasten the library development, you can look at this as starter kit for library development. So you can add you own modules, classes, functions, constants and doing your own library development on it.
 
 These are some useful information when developing library with this repository.
 
