@@ -1,6 +1,6 @@
 # Python Library
 
-This project consists of code for creating minimal python library and deploying it to Pypi.
+Python library project with automatic deployment to Pypi. This repository also includes github actions workflow for running Unit Test, Static Analysis and generating Code Coverage report on every push, so we can restrict for every merge to certain branch to pass status check first with this workflow can actually be merged.
 
 ## Operating on This Library
 
