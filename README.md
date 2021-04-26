@@ -14,7 +14,7 @@ You can simply run this command to install this library:
 
 or add the library to requirements.txt:
 
-`py-mannerism=0.0.1`
+`py-mannerism==0.0.1`
 
 #### Using the library
 
